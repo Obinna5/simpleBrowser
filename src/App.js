@@ -18,10 +18,24 @@ const userProfileHeader = ({ profile }) => ({
 // My change 
 function App() { 
   return ( 
-    <div className="App"> // 
+    <div className="App"> 
+ <header className="App-header">
+     
+      <img src={logo} className="App-logo" alt="logo" />
+  
+     <p>OBINNA</p>
+</header>
+    </div>
+  );
+}
 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+export default App;
+
+
+
+/* 
+
+ <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -34,8 +48,6 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
-  );
-}
 
-export default App;
+
+*/

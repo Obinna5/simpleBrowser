@@ -1,9 +1,22 @@
 import logo from './logo.svg';
+//import logo from './default.jpg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
+// Jesse Edit 
+
+/*
+const userProfileHeader = ({ profile }) => ({
+  title: `${profile.name}`,
+  headerTitleStyle: {
+  color: ' #3949ab',
+  textAlign: 'center',
+  alignSelf: 'center'
+  }
+});
+*/
+function App() { 
+  return ( 
+    <div className="App"> // 
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

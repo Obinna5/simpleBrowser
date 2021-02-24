@@ -1,19 +1,10 @@
 import logo from './logo.svg';
 //import logo from './default.jpg';
 import './App.css';
-
+// Line from Master
 // Jesse Edit 
 
-/*
-const userProfileHeader = ({ profile }) => ({
-  title: `${profile.name}`,
-  headerTitleStyle: {
-  color: ' #3949ab',
-  textAlign: 'center',
-  alignSelf: 'center'
-  }
-});
-*/
+
 function App() { 
   return ( 
     <div className="App"> // 

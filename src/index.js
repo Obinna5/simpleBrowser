@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import EditButton from './EditButton'; 
 import reportWebVitals from './reportWebVitals';
+import Grid from './Grid';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Grid/>
   </React.StrictMode>,
   document.getElementById('root')
 );

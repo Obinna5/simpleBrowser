@@ -1,17 +1,47 @@
 import logo from './logo.svg';
 //import logo from './default.jpg';
 import './App.css';
+
+
 // Line from Master
 // An addition line in master
 // Jesse Edit 
 
 
+// Jesse Edit 
+// I want this in master (1)
+/*
+const userProfileHeader = ({ profile }) => ({
+  title: `${profile.name}`,
+  headerTitleStyle: {
+  color: ' #3949ab',
+  textAlign: 'center',
+  alignSelf: 'center'
+  }
+});
+*/
+
+// My change 
 function App() { 
   return ( 
-    <div className="App"> // 
+    <div className="App"> 
+ <header className="App-header">
+     
+      <img src={logo} className="App-logo" alt="logo" />
+  
+     <p>OBINNA</p>
+</header>
+    </div>
+  );
+}
 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+export default App;
+
+
+
+/* 
+
+ <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -24,8 +54,6 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
-  );
-}
 
-export default App;
+
+*/
